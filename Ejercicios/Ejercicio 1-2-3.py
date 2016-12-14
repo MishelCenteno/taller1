@@ -51,7 +51,8 @@ def ejercicio4():
      variable=v,
      value=2).pack(anchor=W)
 
-    mainloop()
+    mainloop()
+
     
     
 def ejercicio5():
@@ -80,9 +81,48 @@ def ejercicio5():
      value=val).pack(anchor=W)
     mainloop()
 
+from tkinter import *
+
+root = Tk()
+v = IntVar()
+v.set(1) #El valor que va aqui indica en boton se inicializara al ejecutar
+languages = [("Python",1),
+             ("Perl",  2),
+             ("Java",  3),
+             ("C++",   4),
+             ("C",     5)]
+
+def ejercicio6():
+    print (v.get())
+    Label(root,
+    text=  "Escoja un lenguaje de programación:",
+    justify = LEFT,
+    padx = 20).pack()
+for txt, val in languages:
+    Radiobutton(root,
+    text=txt, 
+    indicatoron =0,
+    width = 20,
+    padx = 20,
+    variable=v,
+    command=ejercicio6,
+    value=val).pack(anchor=W)
+mainloop()
+
+def ejercicio7():
+
+    master = Tk()
+    var1 = IntVar()
+    Checkbutton(master, text="Hombre", variable=var1).grid(row=0, sticky=W)
+    var2 = IntVar()
+    Checkbutton(master, text="Mujer", variable=var2).grid(row=1, sticky=W)
+    mainloop()
+
 
 ejercicio1()
 ejercicio2()
 ejercicio3()
 ejercicio4()
 ejercicio5()
+ejercicio6()
+ejercicio7()
