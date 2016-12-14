@@ -12,6 +12,8 @@ En el ejercicio 4 se crea una ventana de escritorio  que nuestra un mensaje de a
 Jorge Campoverde
 El ejercicio 6 crea un menu en una ventana y muestra varios lenguajes de programacion, al iniciar el programa se puede poner que opcion salga senalada
 El ejercicio 7 crea un menu donde elegimos el sexo y lo marca con un visto
+Stalin Maza
+El ejercicio 8,9,10 aprendiendo muchas cosas sobre la impresion en la ventana,mandar funciones entre otras cosas mas que estan explicadas en  mi parte.
 
 Conclusiones:
 Maria Fernanda Tibanta 
@@ -23,3 +25,8 @@ Como conclusion podemos llegar Tkinter es una interfaz grafica muy potente
 y facil de usar, ademas demuestra lo sencillo que es usar Python, usar una ventana con 
 interfaz grafica facilita mucho al usuario a solucionar sus problemas, asi como el programa
 creado se ve mucho mejor.
+
+StalinMaza
+Esta libreria nos ayuda a que podamos utilizar la entrada de datos por ventana y asi nosotros darle una mejor interfaz al usuario, tambien podemos usar diferentes formas de imprimir las ventanas,labels y aprender mas funciones que serian importantes saber.
+Conclusion Final
+Tkinter es una herramienta muy útil al momento de realizar las interfaces graficas con la opción de crear botones, ventanas y otros elementos importantes de una ventana que nos permite interactuar con el programa. Y que sea de fácil acceso para el usuario, modificando los colores, tipo de letra dando una mejor apariencia a la interfaz. Es de fácil entendimiento para el programador 
